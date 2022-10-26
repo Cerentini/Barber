@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    background-color: rgb(214, 174, 16);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    margin-left: 898px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 66px;
+}
+
+#logo {
+    margin-left: 500px;
+    left: 20%;
+    padding: 40px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+nav a:hover {
+    color: rgb(214, 174, 16);
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+.principal {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    color: white;
+}
+
+.mapa p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.local {
+    padding-left: 500px;
+    margin-left: 380px;
+    padding-top: 20px;
+}
+
+.itens {
+    font-style: italic;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.itens:before {
+ content:" ✓ " 
+}
+
+.itens:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: 500ms;
+   font-size: 22px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 25px;
+}
+
+
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.texto {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+
+.video {
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.conteudo-beneficios {
+    width: 2000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.lista {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.foto {
+    width: 40%;
+    height: 420px;
+    margin-top: 40px;
+}
+ 

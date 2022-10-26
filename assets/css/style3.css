@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    background: rgb(214, 174, 16);
+}
+
+nav {
+    position: absolute;
+    top: 13%;
+    left: 65%;
+}
+
+#logo {
+    margin-left: 500px;
+    left: 20%;
+    padding: 40px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition-duration: 100ms;
+}
+
+nav a:hover {
+    color: white;
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+main {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-size: 28px;
+    color: black;
+}
+
+.input-padrão {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#digitesuamensagem {
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: text;
+    font-size: 20px;
+}
+
+#contato label {
+    font-weight: normal;
+}
+
+#check {
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.horario {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#horario {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#enviarformulário {
+    max-height: 100px;
+    height: 100px;
+  }
+
+#submit {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(214, 174, 16);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: 700ms;
+}
+
+thead{
+    font-size: 25px;
+}
+
+fieldset {
+    max-height: 250px;
+    height: 250px;
+  }
+
+table {
+    padding: 10px;
+    height: 150px;
+    width: 400px;
+    table-layout: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 20px 20px;
+    background-color: rgb(214, 174, 16);
+    border-radius: 7px;
+
+}
+
+td, th {
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+table:hover {
+    background-color: black;
+    color: rgb(214, 174, 16);
+    transition: 500ms;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(214, 174, 16);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+
+.texto:hover {
+    color: black;
+}

@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+main {
+  max-height: 80vh;
+  height: 80vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: rgb(214, 174, 16);
+}
+
+nav {
+  position: absolute;
+  top: 13%;
+  left: 65%;
+}
+
+#logo {
+  margin-left: 500px;
+  left: 20%;
+  padding: 40px;
+}
+
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  transition-duration: 100ms;
+}
+
+nav a:hover {
+  color: white;
+  opacity: 0.7;
+  transition: 500ms;
+}
+
+.produtos {
+  margin: 0 800px;
+  padding: 50px 0;
+}
+
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 10px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: solid;
+  border-radius: 15px;
+  border-color: #ccc;
+  border-width: 7px;
+}
+
+.produtos li:hover {
+  border-color: rgb(214, 174, 16);
+  color: rgb(214, 174, 16);
+  opacity: 0.7;
+  transition: 500ms;
+}
+
+.produtos li:hover h2 {
+  font-size: 33px;
+}
+
+.produtos li:hover .preço-produtos {
+  font-size: 33px;
+}
+
+.produtos li:hover .descrição {
+  font-size: 33px;
+}
+
+.produtos li:active {
+  border-color: black;
+  color: black;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.preço-produtos {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.descrição {
+  font-size: 22px;
+}
+
+footer {
+  background-color: rgb(214, 174, 16);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.texto {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0 0;
+}
+
+.texto:hover {
+  color: black;
+}
+
