@@ -30,28 +30,13 @@ header {
     background: white;
     display: flex;
     align-items: center;
-}
-
-nav {
-    display: flex;
+    justify-content: space-around;
 }
 
 nav ul {
-    margin-left: 898px;
     display: flex;
-    gap: 10px;
-    margin-bottom: 66px;
-}
+    gap: 20px;
 
-#logo {
-    margin-left: 500px;
-    left: 20%;
-    padding: 40px;
-}
-
-nav li {
-    display: inline;
-    margin-left: 10px;
 }
 
 nav a {
@@ -66,7 +51,6 @@ nav a {
 nav a:hover {
     color: rgb(214, 174, 16);
     opacity: 0.7;
-    transition: 500ms;
 }
 
 .principal {
@@ -75,16 +59,16 @@ nav a:hover {
 }
 
 .titulo-principal {
-    padding-left: 20px;
     text-align: center;
     font-family: 'Chilanka', cursive;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
 p {
     text-align: center;
+    padding-inline: 20px;
 }
 
 #missao {
@@ -97,14 +81,34 @@ em strong {
 
 .mapa p {
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-block: 20px;
 }
 
 .local {
-    padding-left: 500px;
-    margin-left: 380px;
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.beneficios-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.lista {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+    width: 355px;
 }
 
 .itens {
@@ -116,7 +120,7 @@ em strong {
 }
 
 .itens:before {
- content:" ✓ " 
+    content: " ✓ "
 }
 
 .itens:hover {
@@ -124,18 +128,19 @@ em strong {
     color: white;
     border-color: white;
     transition: 500ms;
-   font-size: 22px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    font-size: 25px;
+.foto {
+    width: 40%;
+    height: 420px;
+    margin-top: 40px;
 }
 
-
+.video-iframe {
+width: 800px;
+height: 600px;
+margin-block: 150px;
+}
 
 footer {
     background-color: white;
@@ -151,30 +156,3 @@ footer {
     margin: 20px 0 0;
 }
 
-.video {
-    margin-left: 700px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.conteudo-beneficios {
-    width: 2000px;
-    margin: 0 auto;
-    display: flex;
-}
-
-.lista {
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 50px;
-    
-}
-
-.foto {
-    width: 40%;
-    height: 420px;
-    margin-top: 40px;
-}
- 

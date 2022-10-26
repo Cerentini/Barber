@@ -1,0 +1,8 @@
+@media (max-width:1200px) {
+    .beneficios-container {
+    flex-direction: column;
+    }
+.foto {
+    width: 500px;
+}
+}
